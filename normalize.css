@@ -295,6 +295,7 @@ textarea {
 button,
 input {
     line-height: normal;
+    margin-bottom: 26px;
 }
 
 /**
