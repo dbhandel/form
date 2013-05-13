@@ -1,7 +1,8 @@
 $(function() {
-	$('form').submit(function() {
+	$('form').submit(function(e) {
+		e.preventDefault()
   		console.log('Handler for .submit() called.');
-  		validateForm()	//need to pass in the contents of all 4 fields as parameters??
+  		validateForm()	//need to pass in the contents (values) of all 4 fields as parameters??
 	}
 	);
 	 
@@ -38,9 +39,9 @@ function validatePhone (argument) {
 }	
 
 
-/*var $document = $('document');
+/*var $form = $('form');
 	// listen for click on submit or enter key keyup
-	$document.keyup(function (event) {
+	$form.keyup(function (event) {
 		if (event.which == 13) {
     			console.log('enter key pressed');
   			}  //end of if block
