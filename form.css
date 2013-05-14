@@ -1,5 +1,7 @@
 
-
+.container {
+	padding-top: 20px;
+}
 form {
 	background-color: gray;
 	margin: auto;
@@ -14,5 +16,12 @@ li {
 	list-style-type: none;
 	font-weight: bold;
 	font-size: 22px;
+}
+
+p {
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;	
 }
 /*re-architect for to classes good for the look of a larger site*/
