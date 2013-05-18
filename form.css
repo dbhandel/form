@@ -18,6 +18,13 @@ li {
 	font-size: 22px;
 }
 
+li:nth-of-type(6) {
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 16px;
+}
+
 p {
 	color: red;
 	font-size: 22px;
