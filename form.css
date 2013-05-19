@@ -1,7 +1,5 @@
 
-.container {
-	padding-top: 20px;
-}
+
 form {
 	background-color: gray;
 	margin: auto;
@@ -9,6 +7,7 @@ form {
 	min-width: 452px;
 	padding-right: 20px;
 	padding-top: 14px;
+	margin-top: 30px;
 }
 
 li {
@@ -18,17 +17,8 @@ li {
 	font-size: 22px;
 }
 
-li:nth-of-type(6) {
-	font-weight: normal;
-	font-size: 14px;
-	text-align: center;
-	padding-bottom: 16px;
-}
-
 p {
 	color: red;
-	font-size: 22px;
-	font-weight: bold;
-	text-align: center;	
+	text-align: center;
 }
-/*re-architect for to classes good for the look of a larger site*/
+/*re-architect form to classes good for the look of a larger site*/
